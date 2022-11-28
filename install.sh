@@ -13,10 +13,7 @@ gsettings set org.gnome.desktop.interface clock-format 24h
 gsettings set org.gtk.Settings.FileChooser clock-format 24h
 
 # install apps
-flatpak install flathub com.discordapp.Discord
-flatpak install flathub com.skype.Client
-flatpak install flathub com.microsoft.Teams
-flatpak install flathub us.zoom.Zoom
+flatpak install flathub com.discordapp.Discord com.skype.Client com.microsoft.Teams us.zoom.Zoom
 sudo apt install -y code clangd fish fonts-jetbrains-mono
 chsh -s /usr/bin/fish
 git config --global user.name 'Alistair Keiller'
