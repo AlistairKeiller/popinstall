@@ -17,7 +17,7 @@ flatpak install flathub com.discordapp.Discord
 flatpak install flathub com.skype.Client
 flatpak install flathub com.microsoft.Teams
 flatpak install flathub us.zoom.Zoom
-sudo apt install -y code fish fonts-jetbrains-mono clangd
+sudo apt install -y code clangd fish fonts-jetbrains-mono
 chsh -s /usr/bin/fish
 git config --global user.name 'Alistair Keiller'
 git config --global user.email 'alistair@keiller.net'
