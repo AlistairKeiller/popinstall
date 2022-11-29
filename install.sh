@@ -14,7 +14,7 @@ gsettings set org.gtk.Settings.FileChooser clock-format 24h
 
 # install apps
 flatpak install flathub com.discordapp.Discord com.skype.Client com.microsoft.Teams us.zoom.Zoom
-sudo apt install -y code clangd fish fonts-jetbrains-mono
+sudo apt install -y code clang clangd fish fonts-jetbrains-mono
 chsh -s /usr/bin/fish
 git config --global user.name 'Alistair Keiller'
 git config --global user.email 'alistair@keiller.net'
